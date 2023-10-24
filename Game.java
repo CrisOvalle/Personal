@@ -34,6 +34,7 @@ public class Game extends Canvas implements Runnable{
 	public STATE gameState = STATE.Menu;
 	
 	public Game() {
+		System.out.printl("hello world");
 		handler = new Handler();
 		hud=new HUD();
 		menu = new Menu(this, handler,hud);
